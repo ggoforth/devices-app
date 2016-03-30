@@ -2,7 +2,7 @@
   "name": "your-name-here",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +20,7 @@
     "express": "^4.13.4",
     "font-awesome": "^4.5.0",
     "gulp": "^3.9.0",
+    "gulp-angular-htmlify": "^2.3.0",
     "gulp-angular-templatecache": "^1.8.0",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-babel": "^6.1.2",
@@ -44,7 +45,7 @@
     "mongoose": "^4.4.1",
     "morgan": "^1.6.1",
     "node-env-file": "^0.1.8",
-    "gulp-angular-htmlify": "^2.3.0"
+    "q": "^1.4.1"
   },
   "devDependencies": {
     "gulp-awspublish": "^3.0.1"
